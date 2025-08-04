@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #101013 0%, #131313 100%);
+    min-height: 100vh;
+}
+
+header {
+    padding: 90px 0 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    min-height: 9rem;
+}
+
+header h1 {
+    margin: 0 0 30px 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+nav ul li a:hover {
+    background: #00000031;
+}
+
+main {
+    padding: 30px 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 25px;
+    background: #232323;
+    padding: 24px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    color: #fff;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ffffff33;
+    padding-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 16px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+header, footer {
+    background: linear-gradient(120deg, #23243a 0%, #2d2e4a 50%, #181924 100%);
+    color: #fff;
+}
