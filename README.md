@@ -1,3 +1,5 @@
+[EN]
+
 # Portfolio Project
 
 This is a simple portfolio project created using HTML and CSS. It showcases various works and skills in a clean and modern layout.
@@ -6,8 +8,9 @@ This is a simple portfolio project created using HTML and CSS. It showcases vari
 
 ```
 portfolio-project
+├── index.html       # Main HTML document for the portfolio
+|
 ├── src
-│   ├── index.html       # Main HTML document for the portfolio
 │   ├── styles
 │   │   └── style.css    # CSS styles for the portfolio
 │   └── assets           # Directory for images and media files
@@ -36,8 +39,6 @@ portfolio-project
 
 ## Usage
 
-Feel free to modify the `src/index.html` and `src/styles/style.css` files to customize the content and appearance of the portfolio. Add any images or media files to the `src/assets` directory.
+Feel free to modify the `index.html` and `src/styles/style.css` files to customize the content and appearance of the portfolio. Add any images or media files to the `src/assets` directory.
 
-## License
 
-This project is open-source and available under the MIT License.
